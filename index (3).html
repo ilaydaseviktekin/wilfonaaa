@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Search Console doğrulama etiketi -->
+  <meta name="google-site-verification" content="B0ioJW-y5eNtnwnQMnLNXbEQ6yHrVohYIL2l7fEMKLQ" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilfona | Sustainable & Minimal Bags</title>
+  <meta name="description" content="Wilfona: 100% organik pamuklu tote çantalar. Sürdürülebilir, minimal ve doğal tasarımlar. Carry Nature with Grace." />
+  <meta name="theme-color" content="#4E6F52"/>
+  <meta property="og:title" content="Wilfona | Sustainable & Minimal Bags" />
+  <meta property="og:description" content="100% organik pamuklu tote çantalar. Sürdürülebilir, minimal ve doğal tasarımlar." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wilfona.com" />
+  <meta property="og:image" content="/assets/og-cover.jpg" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/>
+  <style>
+    :root{--green:#4E6F52;--beige:#EDE9E3;--brown:#A69078;--text:#2E2E2E;--paper:#F3EFE9;--white:#fff;--shadow:0 10px 30px rgba(0,0,0,.08);--radius:14px}
+    [data-theme="forest"]{--green:#4E6F52;--beige:#EDE9E3;--brown:#A69078;--text:#2E2E2E;--paper:#F3EFE9}
+    [data-theme="sand"]{--green:#3F5D43;--beige:#F1EDE6;--brown:#9C826C;--text:#2C2C2C;--paper:#FAF8F3}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:var(--paper);background-image:radial-gradient(rgba(0,0,0,.03) 1px,transparent 1px),radial-gradient(rgba(0,0,0,.02) 1px,transparent 1px);background-position:0 0,12px 12px;background-size:24px 24px,24px 24px}
+    a{color:var(--green);text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1160px;margin:auto;padding:0 20px}
+    .section{padding:72px 0}
+    .title{font-weight:700;letter-spacing:.2px;color:var(--green)}
+    .lead{color:#524f4b}
+    header.site-header{position:sticky;top:0;z-index:20;backdrop-filter:saturate(180%) blur(8px);background:rgba(237,233,227,.7);border-bottom:1px solid rgba(0,0,0,.06)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+    .left{display:flex;align-items:center;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px}
+    .logo-title{font-weight:800;font-size:1.25rem;color:var(--green)}
+    .tagline{font-size:.9rem;color:var(--brown)}
+    .menu{display:flex;gap:18px;align-items:center}
+    .menu a{font-weight:600}
+    .cta{background:var(--green);color:var(--beige);padding:10px 16px;border-radius:10px}
+    .cta:hover{filter:brightness(.93)}
+    .controls{display:flex;gap:10px;align-items:center}
+    .pill{border:1px solid rgba(0,0,0,.12);background:#fff;color:var(--text);padding:8px 10px;border-radius:999px;font-weight:600}
+    .hero{padding:88px 0 64px}
+    .hero-wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;align-items:center}
+    .hero h1{font-size:clamp(2rem,4vw,3rem);color:var(--green);margin:.1rem 0}
+    .hero .sub{font-size:1.1rem;color:#5e5a56}
+    .hero .actions{display:flex;gap:12px;margin-top:22px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:12px;font-weight:700;box-shadow:var(--shadow)}
+    .btn-primary{background:var(--green);color:var(--beige)}
+    .btn-ghost{background:var(--white);color:var(--green);border:1px solid rgba(0,0,0,.06)}
+    .products .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+    .card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+    .card .img{aspect-ratio:4/3;background:linear-gradient(135deg,#f6f3ee,#eae5de);display:grid;place-items:center;color:#8a837a;font-weight:700}
+    .card h3{margin:14px 16px 4px;color:var(--green)}
+    .card p{margin:0 16px 14px;color:#6d6a66}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+    .paper{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
+    .list{margin:0;padding-left:18px}
+    details{background:var(--white);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+    details+details{margin-top:12px}
+    summary{cursor:pointer;font-weight:700;color:var(--green)}
+    .contact .card{padding:22px}
+    .contact .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}
+    form input,form textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(0,0,0,.12);background:#fff}
+    form textarea{min-height:120px;resize:vertical}
+    form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    form button{background:var(--green);color:var(--beige);padding:12px 16px;border:none;border-radius:10px;font-weight:700;cursor:pointer}
+    form button:hover{filter:brightness(.94)}
+    footer{padding:26px 0;color:#5c5956}
+    .foot{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .social{display:flex;gap:12px}
+    .badge{display:inline-flex;align-items:center;gap:6px;background:#ffffffd9;border:1px solid rgba(0,0,0,.06);padding:8px 10px;border-radius:999px}
+    @media (max-width:980px){.hero-wrap{grid-template-columns:1fr}.split{grid-template-columns:1fr}.contact .grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body data-theme="forest">
+  <header class="site-header">
+    <div class="container nav" role="navigation" aria-label="Ana menü">
+      <div class="left">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 46c10-10 22-12 28-26" stroke="var(--green)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M46 14c-8 2-14 8-16 16 8-2 14-8 16-16Z" fill="var(--green)"/>
+        </svg>
+        <div>
+          <div class="logo-title">Wilfona</div>
+          <div class="tagline">Carry Nature with Grace</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="#shop">Mağaza</a>
+        <a href="#about">Hakkımızda</a>
+        <a href="#sustain">Sürdürülebilirlik</a>
+        <a class="cta" href="#contact">İletişim</a>
+      </nav>
+      <div class="controls">
+        <button class="pill" onclick="document.body.dataset.theme=(document.body.dataset.theme==='forest'?'sand':'forest')">Tema</button>
+      </div>
+    </div>
+  </header>
+  <section class="hero" id="home">
+    <div class="container hero-wrap">
+      <div>
+        <h1>100% Organik Pamuklu Tote Çantalar</h1>
+        <p class="sub">Doğadan ilham alan tasarımlar — sürdürülebilir, zarif ve minimal.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#shop">Koleksiyonu Keşfet</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="shop" class="section products">
+    <div class="container">
+      <h2 class="title">Koleksiyon</h2>
+      <p class="lead">Minimal baskılar, zamansız dokular ve uzun ömürlü kullanım.</p>
+      <div class="grid" role="list">
+        <article class="card" role="listitem">
+          <div class="img" aria-label="Ürün görseli yeri">Pure Earth Tote</div>
+          <h3>Pure Earth Tote</h3>
+          <p>Organik pamuklu, günlük kullanım için sağlam ve sade.</p>
+        </article>
+        <article class="card" role="listitem">
+          <div class="img" aria-label="Ürün görseli yeri">Minimal Leaf Bag</div>
+          <h3>Minimal Leaf Bag</h3>
+          <p>Tek renk serigrafi baskı, düşük çevresel etki.</p>
+        </article>
+        <article class="card" role="listitem">
+          <div class="img" aria-label="Ürün görseli yeri">Classic Wilfona</div>
+          <h3>Classic Wilfona</h3>
+          <p>Zamansız görünüm — kombinlerin doğal tamamlayıcısı.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="container split">
+      <div class="paper">
+        <h2 class="title">Wilfona Hakkında</h2>
+        <p>Wilfona, doğanın zarafetinden ilham alan sürdürülebilir bir yaşam markasıdır. Her çantamız, kimyasal içermeyen organik pamuktan, etik koşullarda ve küçük atölyelerde üretilir.</p>
+        <ul class="list">
+          <li>Uzun ömürlü ve yeniden kullanılabilir ürün yaklaşımı</li>
+          <li>Plastiksiz ambalaj ve geri dönüştürülebilir materyaller</li>
+          <li>Yerel üreticilerle adil iş birlikleri</li>
+        </ul>
+      </div>
+      <div id="sustain" class="paper">
+        <h2 class="title">Sürdürülebilirlik</h2>
+        <p>Ürünlerimizde GOTS sertifikalı kumaşlar kullanır, gereksiz boyadan kaçınırız. Amaç, basit bir günlük eşyayı doğaya saygının sembolüne dönüştürmektir.</p>
+        <ul class="list">
+          <li>GOTS & OEKO-TEX materyaller</li>
+          <li>Düşük su tüketimi ve atık yönetimi</li>
+          <li>Karbon ayak izini düşüren lojistik tercihleri</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title">Sık Sorulan Sorular</h2>
+      <details>
+        <summary>Çantalar yıkanabilir mi?</summary>
+        <p>Evet. Soğuk suda, ters çevirerek elde veya hassas programda yıkayabilirsiniz. Baskılı modeller için ütüleme esnasında baskıyı koruyun.</p>
+      </details>
+      <details>
+        <summary>Ambalajınız çevre dostu mu?</summary>
+        <p>Kraft zarf/kutu, geri dönüştürülmüş kağıt ve biyobozunur etiketler kullanıyoruz.</p>
+      </details>
+      <details>
+        <summary>Kurumsal özel sipariş alıyor musunuz?</summary>
+        <p>Evet. Etkinlikler, fuarlar ve kurumsal hediyeler için minimum adetle logolu üretim yapılır.</p>
+      </details>
+    </div>
+  </section>
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="title" style="color:var(--beige)">İletişim</h2>
+      <div class="grid">
+        <div class="card">
+          <h3 style="color:var(--green);margin:0 0 .5rem">Bize Yaz</h3>
+          <form action="https://formspree.io/f/your-id" method="POST">
+            <div class="row">
+              <input name="name" placeholder="Ad Soyad" required aria-label="Ad Soyad" />
+              <input type="email" name="email" placeholder="E-posta" required aria-label="E-posta" />
+            </div>
+            <textarea name="message" placeholder="Mesajınız" required aria-label="Mesaj"></textarea>
+            <div style="display:flex;gap:10px;align-items:center;margin-top:10px">
+              <button type="submit">Gönder</button>
+              <span style="font-size:.9rem;opacity:.9">veya e-posta: <a href="mailto:wilfona.co@gmail.com">wilfona.co@gmail.com</a></span>
+            </div>
+          </form>
+        </div>
+        <div class="card instagram-card">
+          <h3 style="color:var(--green);margin:0 0 .5rem">Instagram</h3>
+          <p style="text-align:center;margin:8px 0 0">Bizi Instagram’da takip et</p>
+          <p style="text-align:center;margin:4px 0 12px"><a href="https://instagram.com/wilfona.co" target="_blank" rel="noopener">@wilfona.co</a></p>
+          <p class="badge">♻️ Plastik içermeyen ambalaj</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container foot">
+      <div>© <span id="y"></span> Wilfona — Sustainable Living Studio</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('y').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
